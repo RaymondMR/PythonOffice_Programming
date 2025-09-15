@@ -1,3 +1,4 @@
+# python EnumerateTables.py
 import win32com.client
 
 # Conectarse a una instancia existente de Word
