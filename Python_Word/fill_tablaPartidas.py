@@ -6,7 +6,7 @@ import win32com.client
 
 # === Instancias de Excel y Word (según tu contexto) ===
 excelApp = win32com.client.GetObject(Class="Excel.Application")
-workbook = excelApp.Workbooks[1]
+workbook = excelApp.Workbooks[0]
 sheet = workbook.Worksheets("FINIQUITO")
 
 wordApp = win32com.client.GetObject(Class="Word.Application")

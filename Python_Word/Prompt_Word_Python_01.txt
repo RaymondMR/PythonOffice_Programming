@@ -1,5 +1,6 @@
 CONTEXTO:
 En el contexto de Microsoft Excel Python completa el siguiente un Script de python usando: 
+
 import win32com.client
 excelApp = win32com.client.GetObject(Class="Excel.Application")
 workbook=excelApp.Workbooks[1]
