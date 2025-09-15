@@ -1,0 +1,21 @@
+CONTEXTO:
+En el contexto de Microsoft Excel Python completa el siguiente un Script de python usando: 
+import win32com.client
+excelApp = win32com.client.GetObject(Class="Excel.Application")
+workbook=excelApp.Workbooks[1]
+sheet=workbook.Worksheets("FINIQUITO")
+
+
+wordApp = win32com.client.GetObject(Class="Word.Application")
+tables=wordApp.ActiveDocument.Tables
+table2=tables[1]
+
+TAREA:
+Rellena la tabla (table2) ms Word, a partir de la fila 2, de acuerdo a lo siguiente:
+recorriendo las celdas de Excel a partir de la fila 304 y hasta la fila 314
+
+la columna 1 de Word corresponde a los valores de la columna "D" de la hoja "sheet"
+la columna 2 de Word corresponde a los valores de la columna "F" de la hoja "sheet"
+la columna 3 de Word corresponde a los valores de la columna "H" de la hoja "sheet"
+la columna 4 de Word corresponde a los valores de la columna "J" de la hoja "sheet"
+
